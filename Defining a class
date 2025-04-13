@@ -1,0 +1,14 @@
+class Kenya:
+    location = "East Africa"
+    def __init__(self):
+        self.name = "Kenya"
+        self.capital = "Nairobi"
+        self.population = 53771296
+        self.area = 580367
+        self.language = "Swahili and English"
+        self.currency = "Kenyan Shilling"
+
+country = Kenya()
+print(country.name)
+print(country.capital)
+print(country.population)
